@@ -5,7 +5,7 @@ import seaborn as sns
 
 st.set_page_config(page_title=NFHS Dashboard, layout=wide)
 
-st.title(📊 National Family Health Survey (NFHS) Dashboard)
+st.title(National Family Health Survey (NFHS) Dashboard)
 
 # Load Data
 @st.cache_data
