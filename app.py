@@ -37,11 +37,11 @@ if State in df.columns
     df = df[df[State].isin(selected_states)]
 
 # Summary
-st.subheader(📌 Summary Statistics)
+st.subheader(Summary Statistics)
 st.write(df[selected_column].describe())
 
 # Chart
-st.subheader(📈 Visualization)
+st.subheader(Visualization)
 
 chart_type = st.radio(Select Chart Type, [Bar Chart, Line Chart, Histogram])
 
@@ -65,4 +65,4 @@ elif chart_type == Histogram
 st.pyplot(fig)
 
 st.markdown(---)
-st.markdown(Dashboard created using Streamlit 🚀)
+st.markdown(Dashboard created using Streamlit)
